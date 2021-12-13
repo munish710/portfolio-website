@@ -3,7 +3,7 @@ import {
   AiOutlineGithub,
   AiFillLinkedin,
   AiOutlineMail,
-  AiFillCodepenCircle,
+  AiFillTwitterCircle,
 } from "react-icons/ai";
 import styled from "styled-components";
 
@@ -11,23 +11,28 @@ function Footer() {
   return (
     <Container>
       <SocialLinks>
-        <Link href="mailto:palakgupta2712@gmail.com">
+        <Link href="mailto:munish710@gmail.com">
           <AiOutlineMail />
         </Link>
-        <Link href="https://github.com/palakgupta2712" target="_blank">
+        <Link href="https://github.com/munish710" target="_blank">
           <AiOutlineGithub />
         </Link>
         <Link
-          href="https://www.linkedin.com/in/palakgupta2712/"
+          href="https://www.linkedin.com/in/munish-thakur-a14078190/"
           target="_blank"
         >
           <AiFillLinkedin />
         </Link>
-        <Link href="https://www.codepen.io/palakgupta27" target="_blank">
-          <AiFillCodepenCircle />
+        <Link href="https://twitter.com/munish710" target="_blank">
+          <AiFillTwitterCircle />
         </Link>
       </SocialLinks>
-      <Credits>Designed & Built by Palak Gupta</Credits>
+      <Credits
+        href="https://github.com/palakgupta2712/palakgupta2712.github.io"
+        target="_blank"
+      >
+        Designed & Built by Palak Gupta
+      </Credits>
     </Container>
   );
 }
@@ -56,6 +61,8 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
 `;
-const Credits = styled.div`
+const Credits = styled.a`
+  color: inherit;
+  text-decoration: none;
   font-size: 12px;
 `;

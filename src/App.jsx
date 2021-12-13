@@ -25,8 +25,8 @@ function App() {
         </Container>
       </div>
       <Skills />
-      <Projects />
       <Experience />
+      <Projects />
       <Footer />
     </React.Fragment>
   );
