@@ -19,6 +19,10 @@ const data = {
       name: "twitter",
       url: "https://twitter.com/munish710",
     },
+    {
+      name: "blog",
+      url: "https://munish.hashnode.dev/",
+    },
   ],
   skills: {
     development: [
@@ -107,6 +111,6 @@ const data = {
       ],
     },
   ],
-  resume: "resume/Palak_Gupta_Resume.pdf",
+  resume: "resume/Munish_Thakur_1YOE.pdf",
 };
 export default data;
