@@ -1,7 +1,7 @@
 const data = {
   profile_picture_url: "https://avatars.githubusercontent.com/u/53472402?v=4",
   name: "Munish",
-  bio: "A full stack Engineer based out of India, with a love for building products for the web. I really like working with React and all the libraries in it's ecosystem",
+  bio: "A full stack Engineer based out of India, with a love for building products for the web. I really like working with MERN stack and all the libraries in JavaScript ecosystem",
   links: [
     {
       name: "email",
@@ -9,7 +9,7 @@ const data = {
     },
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/munish-thakur-a14078190/",
+      url: "https://www.linkedin.com/in/munish710/",
     },
     {
       name: "github",
@@ -45,9 +45,17 @@ const data = {
       company: "TCS",
       post: "Software Developer",
       summary:
+        "Contributed to the development of various features in the redRail mobile web funnel leveraging React, Redux, Express, Mongo, and Scss. Key features include Train Schedule, Coach Position, Route Extension,Confirmation Probability and Flow. Helped develop and launch the redRail Desktop funnel from scratch working in a small team of 2 Engineers. Developed various reusable components in the common component library, leveraging storybook. Implemented performance improvements for various pages in both the redBus and redRail mobile web funnel. Improving Lighthouse scores from 40s to 80+. • Built an in-house user session recording library from scratch, enabling product teams to analyse userbehaviors and feature impacts by playing back their activity recordings. Awarded Trailblazer Award for Superlative Performance in Q3 2022-23.",
+      startdate: "Feb 2022",
+      enddate: "Present",
+    },
+    {
+      company: "TCS",
+      post: "Software Engineer",
+      summary:
         "Worked on a Payroll Management web App end to end. Implementing new features and making bug fixes, Developed unified Dashboards for a Retail Store Chain and integrated google maps for an interactive site project using tehnologies like React, Node, Angular and Azure Cloud Services",
       startdate: "Oct 2020",
-      enddate: "Present",
+      enddate: "Feb 2022",
     },
     {
       company: "ArgilDX",
