@@ -42,8 +42,8 @@ const data = {
   },
   experience: [
     {
-      company: "TCS",
-      post: "Software Developer",
+      company: "redBus",
+      post: "Software Engineer",
       summary:
         "Contributed to the development of various features in the redRail mobile web funnel leveraging React, Redux, Express, Mongo, and Scss. Key features include Train Schedule, Coach Position, Route Extension,Confirmation Probability and Flow. Helped develop and launch the redRail Desktop funnel from scratch working in a small team of 2 Engineers. Developed various reusable components in the common component library, leveraging storybook. Implemented performance improvements for various pages in both the redBus and redRail mobile web funnel. Improving Lighthouse scores from 40s to 80+. • Built an in-house user session recording library from scratch, enabling product teams to analyse userbehaviors and feature impacts by playing back their activity recordings. Awarded Trailblazer Award for Superlative Performance in Q3 2022-23.",
       startdate: "Feb 2022",
